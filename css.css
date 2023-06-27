@@ -32,6 +32,10 @@ body {
     animation: gradient 8s ease infinite;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
+    width: 200px;
+    height: 170px;
+    font-size: 140px;
+    
   }
   @keyframes gradient {
     0% {
@@ -44,12 +48,36 @@ body {
       background-position: 0% 50%;
     }
   }
+  #notificacion {
+
+    margin-left: 230px;
+    font-size: 30px;
+  }
+  h1{
+    font-size: 40px;
+    background: linear-gradient(-45deg, #f0098c, #1acfdc, #a023d5, #d52385);
+    background-size: 200% 200%;
+    animation: gradient 2s ease infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    
+    
+  }
 
   .boton {
     background-color: #238ed5;
     font-size: 25px;
     position: absolute;
-    bottom: 120px;
+    bottom: 30px;
     left: 270px;
     background: linear-gradient(-45deg, #f0098c, #1acfdc, #a023d5, #d52385);
     background-size: 200% 200%;
@@ -58,13 +86,13 @@ body {
 
   .imagen1 {
     position: absolute;
-    top: 100px;
+    top: 200px;
     width: 60px;
     left: 1px;
   }
   .imagen2 {
     position: absolute;
-    top: 160px;
+    top: 260px;
     width: 60px;
     left: 1px;
   }
@@ -72,32 +100,32 @@ body {
     position: absolute;
     width: 60px;
     left: 1px;
-    top: 320px;
+    top: 420px;
   }
 
   .imagen4 {
     position: absolute;
     width: 60px;
     left: 1px;
-    top: 500px;
+    top: 600px;
   }
 
   .imagen5 {
     position: absolute;
     width: 60px;
     left: 1px;
-    top: 560px;
+    top: 660px;
   }
   .imagen11 {
     position: absolute;
-    top: 100px;
+    top: 200px;
     width: 60px;
     float: right;
     right: 1px;
   }
   .imagen21 {
     position: absolute;
-    top: 160px;
+    top: 260px;
     width: 60px;
     float: right;
     right: 1px;
@@ -107,7 +135,7 @@ body {
     width: 60px;
     float: right;
     right: 1px;
-    top: 320px;
+    top: 420px;
   }
 
   .imagen41 {
@@ -115,7 +143,7 @@ body {
     width: 60px;
     float: right;
     right: 1px;
-    top: 500px;
+    top: 600px;
   }
 
   .imagen51 {
@@ -123,7 +151,7 @@ body {
     width: 60px;
     float: right;
     right: 1px;
-    top: 560px;
+    top: 660px;
   }
   .imagengat {
     position: relative;
@@ -133,6 +161,7 @@ body {
 }
 
 @media (min-width: 769px) {
+  
   .container {
     display: grid;
     text-align: center;
@@ -142,6 +171,11 @@ body {
     width: 600px;
     margin: 50px auto;
   }
+  #notificacion {
+
+    margin-left: 270px;
+    font-size: 30px;
+  }
 
   .game-cells {
     background: linear-gradient(-45deg, #060505, #e73ce7, #23a6d5, #2a092d);
@@ -149,6 +183,10 @@ body {
     animation: gradient 8s ease infinite;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
+    
+    width: 200px;
+    height: 170px;
+    font-size: 140px;
   }
   @keyframes gradient {
     0% {
@@ -170,7 +208,7 @@ body {
   .boton {
     font-size: 25px;
     position: absolute;
-    bottom: 120px;
+    bottom: 10px;
     left: 350px;
     background: linear-gradient(-45deg, #f0098c, #1acfdc, #a023d5, #d52385);
     background-size: 200% 200%;
@@ -189,7 +227,14 @@ body {
     
     
   }
-
+  
+  
+  h1{
+    font-size: 40px;
+    background: linear-gradient(-45deg, #f0098c, #1acfdc, #a023d5, #d52385);
+    background-size: 200% 200%;
+    animation: gradient 2s ease infinite;
+  }
   .imagen1 {
     position: absolute;
     top: 100px;
@@ -273,6 +318,11 @@ body {
     width: 600px;
     margin: 50px auto;
   }
+  #notificacion {
+
+    margin-left: 760px;
+    font-size: 30px;
+  }
 
   .game-cells {
     background: linear-gradient(-45deg, #060505, #e73ce7, #23a6d5, #2a092d);
@@ -280,6 +330,10 @@ body {
     animation: gradient 8s ease infinite;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
+    width: 200px;
+    height: 170px;
+    font-size: 140px;
+    
   }
   @keyframes gradient {
     0% {
@@ -302,9 +356,30 @@ body {
     background-color: #238ed5;
     font-size: 25px;
     position: absolute;
-    bottom: 120px;
+    bottom: 10px;
     left: 860px;
   }
+  h1{
+    font-size: 40px;
+    background: linear-gradient(-45deg, #f0098c, #1acfdc, #a023d5, #d52385);
+    background-size: 200% 200%;
+    animation: gradient 2s ease infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    
+    
+  }
+    
+    
 
   .imagen1 {
     position: absolute;
@@ -379,3 +454,4 @@ body {
     top: 590px;
   }
 }
+
